@@ -1,14 +1,16 @@
-##Inspiration##
+# Inspiration
 We were inspired by the challenge of finding innovative solutions to address water scarcity using artificial intelligence (AI). We wanted to create a project that could help people understand the current and future state of water availability in their region, and provide them with useful resources and tips to conserve water and reduce their water footprint. We also wanted to raise awareness about the causes and effects of water scarcity, and encourage people to take action and join the global movement for water justice.
 <hr>
 
-##What it does##
+# What it does
 Our project predicts drought and water scarcity in different regions of India, using a seasonal autoregressive integrated moving average (SARIMA) model. The model takes into account the historical data of rainfall, temperature, and vegetation index, and forecasts the future values of these variables. Based on the forecast, the model assigns a drought severity index and a water scarcity level to each region. Our project also provides an interactive map, a dedicated resources page, a search function for checking water status, social media integration, and engaging graphics. These features aim to help users learn more about water scarcity, find ways to save water, and share their stories and opinions with others.
 <hr>
-##How we built it##
+
+# How we built it
 We built our project using a combination of technologies, such as satellite imaging, government datasets, machine learning, web development, and data visualization. We used satellite images from the NASA Earth Observations to measure the normalized difference vegetation index (NDVI), which is an indicator of plant health and water content. We also used datasets from the World Bank and the World Resources Institute to obtain information on water resources, water use, water stress, and water risk. We applied machine learning techniques, such as regression and classification, to predict the areas prone to drought and the level of water scarcity in different cities. We developed a web application using Streamlit, a framework for creating data-driven apps, to display our results and features. We used various libraries and tools, such as Pandas, NumPy, Matplotlib, Plotly, and Folium, to process, analyze, and visualize our data.
 <hr>
-##Challenges we ran into##
+
+# Challenges we ran into
 Some of the challenges we faced during the project were:
 
 Finding reliable and updated data sources for water scarcity and drought.
